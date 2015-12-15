@@ -1,12 +1,11 @@
 # Final-Project 
 
-KG: I have constructed most of the skeleton for the project.
+This is an instrument tuner/harmonic analyzer.
 
-KG: I wrote the sub-VI to calculate the closest note being played, have not tested yet.
+The front panel contains a tuner that also displays the current note frequency and makes an estimation of intended note, 
+giving the difference in cents on a meter.
 
-KG: I need to finish up figuring out how to layer the exp data with the saved data (I think I have it, just need to test)
+The second panel shows the relative intensities of the harmonics for the current instrument. It attempts to identify the
+source and can display harmonic data for other instruments.
 
-KG: I kinda figured out the microphone set up, there's just a lot of noise and the sampling rate is off so it's not yet very useful.
-
-
-KG: We still need to figure out Fourier analysis and waveform. Possibly how to keep data sampled over a period of time, or we can filter/smooth it.
+The third panel shows a power spectrum over time for the input sound.
